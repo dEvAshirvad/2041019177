@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flexy {
+    display: flex;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    background-color: black;
+}
+
+div {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: yellowgreen;
+    align-items: center;
+    border: 2px solid white;
+
+}
+
+.container p {
+    margin: 20px;
+    font-size: 4rem;
+    outline-style: dashed;
+}
+
+img {
+    width: 400px;
+}
